@@ -6,12 +6,9 @@ export default class Resources extends React.Component{
     constructor() {
         super();
         this.state = ResourceStore.getState();
-        
-        this.onChange = this.onChange.bind(this);
     }
 
     componentDidMount() {
-        debugger;
         ResourceStore.listen(this.onChange);
 
         ResourceActions.fetchResources();
@@ -21,8 +18,7 @@ export default class Resources extends React.Component{
         ResourceStore.unlisten(this.onChange);
     }
 
-    onChange(state) {
-        debugger;
+    onChange = (state) => {
         this.setState(state);
     }
 
