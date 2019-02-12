@@ -12,4 +12,3 @@ Use cases:
 Used technologies:
  - React + Alt.js
  - Node.js
- - MongoDB
