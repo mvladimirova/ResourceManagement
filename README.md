@@ -12,3 +12,5 @@ Use cases:
 Used technologies:
  - React + Alt.js
  - Node.js
+
+Project description - https://1drv.ms/w/s!AjEFy0WQ_VtihNxRTWMksqUOH9r9UQ
